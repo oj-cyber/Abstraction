@@ -2,8 +2,9 @@ public abstract class vehicle {
     protected String make;
     protected String model;
     protected int year;
+    protected double price;
 
-    public vehicle(String make, String model, int year) {
+    public vehicle(String make, String model, int year,double price) {
         this.make = make;
         this.model = model;
         this.year = year;
